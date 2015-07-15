@@ -1,10 +1,21 @@
-div {
-	background-color: red;
-	height: 20px;
-	width: 20px;
+.container {
+	height: 500px;
+	width: 500px;
+	background-color: lightblue;
 }
+div:not(.container){
+	height: 100px;
+	width: 100px;
+	margin: 10px;
+	background-color: red;
+	display: inline-block;
+}
+.one {
 
-p{
-	color: brown;
-	font-family: bold;
+}
+.two {
+	
+}
+.gold{
+	background-color: #450987;
 }
