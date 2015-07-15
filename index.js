@@ -1,6 +1,8 @@
 $(document).ready(function(){
-	$('.one').fadeOut('slow');
-	//hover(function(){
-	//	$(this).addClass('gold');
-	//});
+	$('div').not('.container').hover(function(){
+		this.style.backgroundColor = 'green';
+	},
+	function(){
+		this.style.backgroundColor = 'red';
+	});
 });
